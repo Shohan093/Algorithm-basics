@@ -13,7 +13,7 @@ const ll sz = 1e6 + 1;
 vector<bool> prime(sz, true);
 
 // checking to sqrt(sz) will be enough because all the divisors 
-// of a nummber is present before sqrt(n)
+// of a number is present before sqrt(n)
 void seive() {
 	prime[0] = prime[1] = false;
 	for(ll i = 2; i * i <= sz; ++i) {
