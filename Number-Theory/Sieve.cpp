@@ -34,4 +34,5 @@ int main() {
 	if(prime[n]) cout << "Prime\n";
 	else cout << "Composite\n";
 	cout << '\n';
+	return 0;
 }
